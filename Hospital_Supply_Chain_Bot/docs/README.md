@@ -150,5 +150,5 @@ systemic risk, vendor diversification, and demand volatility.
 
 ---
 
-*Knowledge base assembled by Somita Chaudhari · Data Scientist 
+*Knowledge base assembled by Somita Chaudhari · Data Scientist*
 *Inventra Health — Hospital Supply Chain Intelligence*
