@@ -82,7 +82,6 @@ pulled directly from live data. No invented numbers. No vague advice.
 - Invent data — if something is not in the database, it says so
 - Answer questions unrelated to hospital supply chain
 - Give clinical or medical advice
-- Return markdown, bullet symbols, or formatting noise — output is clean plain text
 
 ---
 
@@ -158,4 +157,6 @@ Retrieved from Kaggle Dataset Platform.
 3. Guo, Y., Liu, F., Song, J. S., & Wang, S. (2024). Supply chain resilience: A review from the inventory management perspective. Fundamental research, 5(2), 450–463. https://doi.org/10.1016/j.fmre.2024.08.002
 
 4. Balkhi, B., Alshahrani, A., & Khan, A. (2022). Just-in-time approach in healthcare inventory management: Does it really work?. Saudi pharmaceutical journal : SPJ : the official publication of the Saudi Pharmaceutical Society, 30(12), 1830–1835. https://doi.org/10.1016/j.jsps.2022.10.013
+
+
 *Built by Somita Chaudhari · Data Scientist*
