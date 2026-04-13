@@ -85,7 +85,7 @@
 | Item | Detail |
 |---|---|
 | Original data | Kaggle — Hospital Supply Chain dataset |
-| Cleaning tool | Python (pandas, numpy) - not uploaded. |
-| Cleaned files | 5 CSVs in `data/` — see `data/README.md` for full cleaning notes |
-| Database | `hospital.db` — SQLite, built by running `notebooks/01_load_data.ipynb` |
-| Knowledge base | 5 PDFs in `docs/` — indexed into FAISS by running `notebooks/02_build_faiss.ipynb` |
+| Cleaning tool | Python (pandas, numpy) (not uploaded) |
+| Cleaned files | 5 CSVs in `data/` (see `data/README.md` for full cleaning notes) |
+| Database | `hospital.db` ( SQLite), built by running `notebooks/01_load_data.ipynb` |
+| Knowledge base | 5 PDFs in `docs/` (indexed into FAISS by running `notebooks/02_build_faiss.ipynb`) |
