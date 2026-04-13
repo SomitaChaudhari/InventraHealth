@@ -1,21 +1,6 @@
 """
 app.py
 ------
-Inventra Health — Streamlit UI (local Ollama version).
-
-Security fixes applied:
-  [FIX-6] XSS via user input: all user-supplied text is escaped with
-          html.escape() before injection into unsafe_allow_html blocks.
-  [FIX-7] XSS via LLM output: all LLM-derived text segments in
-          render_bot_bubble() are escaped with html.escape() before
-          embedding in HTML strings rendered inside iframes.
-
-Run:
-    streamlit run app.py
-
-Requirements:
-    brew services start ollama
-    ollama pull llama3
 """
 
 import os
