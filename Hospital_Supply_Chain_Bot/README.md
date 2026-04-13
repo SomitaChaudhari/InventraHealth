@@ -2,6 +2,7 @@
 
 > AI-powered supply chain operations analyst for US hospitals.
 > Current version: Runs entirely locally — Llama 3 via Ollama, no API keys, no cloud, no cost.
+> HIPAA governed.
 
 ---
 
@@ -91,5 +92,17 @@ streamlit run app.py
 ```
 
 ---
+## CITATIONS
+*Data* :
+Van Patangan. (n.d.). Hospital Supply Chain: Saving Lives (and Money) One Bandage at a Time. Kaggle.
+Retrieved from Kaggle Dataset Platform.
 
-*Built by Somita Chaudhari · Data Scientist
+*Docs*:
+1. Management Sciences for Health. (2012). Medical stores management (Chapter 44). In MDS-3: Managing access to medicines and health technologies. Management Sciences for Health. https://msh.org/wp-content/uploads/2013/04/mds3-ch44-medicalstores-mar2012.pdf
+
+2. Management Sciences for Health. (2012). Inventory management (Chapter 23). In MDS-3: Managing access to medicines and health technologies. Management Sciences for Health. https://msh.org/wp-content/uploads/2013/04/mds3-ch23-inventorymgmt-mar2012.pdf
+
+3. Guo, Y., Liu, F., Song, J. S., & Wang, S. (2024). Supply chain resilience: A review from the inventory management perspective. Fundamental research, 5(2), 450–463. https://doi.org/10.1016/j.fmre.2024.08.002
+
+4. Balkhi, B., Alshahrani, A., & Khan, A. (2022). Just-in-time approach in healthcare inventory management: Does it really work?. Saudi pharmaceutical journal : SPJ : the official publication of the Saudi Pharmaceutical Society, 30(12), 1830–1835. https://doi.org/10.1016/j.jsps.2022.10.013
+*Built by Somita Chaudhari · Data Scientist*
