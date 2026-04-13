@@ -12,10 +12,8 @@ Inventra Health is a conversational supply chain analyst built for hospital oper
 Ask it anything in plain English, it queries live data, retrieves relevant domain knowledge,
 and responds with structured, specific, actionable recommendations.
 
-No dashboards. No filters. No clutter.
+No dashboards. No noise. No information overload.
 Just ask, and get the answer you actually need.
-
-No noise. No information overload. Just decisions.
 
 ---
 
