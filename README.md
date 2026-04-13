@@ -1,8 +1,7 @@
 # 🏥 InventraHealth
 > Somita Chaudhari
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19547539.svg)](https://doi.org/10.5281/zenodo.19547539)
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19547539.svg)](https://doi.org/10.5281/zenodo.19547539) 
 ---
 
 ![Inventra Health](./Inventra%20Health.png)
