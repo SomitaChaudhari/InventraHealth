@@ -90,7 +90,7 @@ cd ~/Hospital_Supply_Chain_Bot
 streamlit run app.py
 # Opens at http://localhost:8501
 
-Note: If Ollam times out:
+Note: If Ollama times out:
 In terminal, use:
 OLLAMA_KEEP_ALIVE=30m ollama serve
 
