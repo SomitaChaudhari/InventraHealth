@@ -1,4 +1,4 @@
-# Inventra Health — Hospital Supply Chain Intelligence
+# 🏥 Inventra Health — Hospital Supply Chain Intelligence
 
 > AI-powered supply chain operations analyst for US hospitals.
 > Current version: Runs entirely locally — Llama 3 via Ollama, no API keys, no cloud, no cost.
