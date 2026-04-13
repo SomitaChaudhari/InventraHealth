@@ -7,21 +7,85 @@
 
 ## What it does
 
-Answers natural language questions about hospital supply chain data
-and responds with structured, plain-text recommendations:
+Inventra Health is a conversational supply chain analyst built for hospital operations teams.
+Ask it anything in plain English — it queries live data, retrieves relevant domain knowledge,
+and responds with structured, specific, actionable recommendations.
 
-- Which items will stockout before the next delivery?
-- Which vendors are running late and what should I do?
-- What supplies do ICU patients consume most?
-- Summarise this month's spending by category
-- Which staff departments have the highest overtime?
+No dashboards. No filters. No clutter.
+Just ask—and get the answer you actually need.
 
-Responses use exact item names, stock levels, vendor names, and 
-dollar figures and gives action/suggestion/recommendations.
-
-No Information Overload!
+No noise. No overload. Just decisions.
 
 ---
+
+### Example questions
+
+These are starting points. You are not limited to these — ask anything related to hospital supply chain operations.
+
+**Inventory & Stockouts**
+- Which items will run out before their vendor can restock them?
+- How much capital is tied up in overstocked items right now?
+- Which items are both critically low and supplied by a delayed vendor?
+
+**Vendor Performance**
+- Which vendors are causing the most risk to patient care?
+- If EquipMed Co. delays again, which items will hit zero stock first?
+- Which vendor has the worst track record and what should I do about it?
+
+**Financials & Spend**
+- Summarise this month's spending by category with totals
+- Where are we overspending compared to what we actually use?
+- Which expense category has the highest average transaction cost?
+
+**Patient Demand**
+- What supplies do ICU patients consume most?
+- Which diagnosis type puts the most pressure on our inventory?
+- What equipment is most demanded and how does our stock compare?
+
+**Staff & Workload**
+- Which staff departments have the highest overtime right now?
+- Are we understaffed relative to patient assignments in the ER?
+- Which staff type is working the most beyond their scheduled hours?
+
+**Cross-dataset (most powerful)**
+- Which items used heavily by ICU patients are also in critical stockout?
+- What is our single biggest operational risk right now?
+- Show me everything that needs immediate action today across all departments.
+
+---
+
+### How responses are structured
+
+Every response follows a clean, consistent format — no walls of text, no generic output.
+
+```
+Summary: <one line — the direct answer>
+
+Top issues / Key findings / Vendor issues / Opportunities:
+1. <item or finding> — <exact values: stock, days, cost, vendor, delay>
+2. ...
+3. ...
+
+Actions:
+1. <specific recommendation with names and numbers>
+2. ...
+3. ...
+```
+
+Responses use exact item names, stock levels, vendor names, dollar figures, and day counts
+pulled directly from live data. No invented numbers. No vague advice.
+
+---
+
+### What it does NOT do
+
+- Invent data — if something is not in the database, it says so
+- Answer questions unrelated to hospital supply chain
+- Give clinical or medical advice
+- Return markdown, bullet symbols, or formatting noise — output is clean plain text
+
+---
+
 
 ## Project structure
 
