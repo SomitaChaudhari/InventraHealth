@@ -18,7 +18,7 @@ This chapter from the WHO-affiliated Management Sciences for Health
 handbook is the most directly applicable supply chain reference for
 hospital inventory operations. It covers safety stock formulas, reorder
 point logic, ABC analysis for item prioritisation, and lead time variance
-— the exact concepts behind the `Days_Until_Stockout`, `Restock_Alert`,
+, the exact concepts behind the `Days_Until_Stockout`, `Restock_Alert`,
 and `Restock_Lead_Time` columns in this dataset. When Inventra Health
 recommends emergency orders or flags stockout risk, this document
 provides the authoritative methodology behind those decisions. It
@@ -37,7 +37,7 @@ https://msh.org/wp-content/uploads/2013/04/mds3-ch23-inventorymgmt-mar2012.pdf
 `mds3-ch44-medicalstores-mar2012.pdf`
 
 Chapter 44 covers the operational side of running a hospital supply
-system — stock receipt and inspection, FIFO/FEFO rotation, warehouse
+system, stock receipt and inspection, FIFO/FEFO rotation, warehouse
 zoning, vendor performance monitoring, and procurement lead time
 tracking. This directly maps to the vendor delay logic in this project:
 EquipMed Co. running 14 days late and HealthTools Ltd. running 5 days
@@ -59,13 +59,13 @@ https://msh.org/wp-content/uploads/2013/04/mds3-ch44-medicalstores-mar2012.pdf
 `main.pdf`
 
 This peer-reviewed article from the *Saudi Pharmaceutical Journal* (2022)
-directly evaluates JIT inventory systems in healthcare settings — their
+directly evaluates JIT inventory systems in healthcare settings, their
 cost-saving benefits under normal conditions and their catastrophic
 failure modes during demand surges like COVID-19. This is precisely
 the tension present in this hospital's data: 299 active restock alerts
 and 182 critical stockout items suggest a lean inventory posture that
-has become fragile. The paper's recommendations — safety buffer stocks,
-supplier diversification, and supply chain risk management systems —
+has become fragile. The paper's recommendations: safety buffer stocks,
+supplier diversification, and supply chain risk management systems, 
 give Inventra Health the clinical and operational language to frame
 recommendations beyond just "order more units."
 
@@ -89,7 +89,7 @@ cascading ripple effects of vendor disruptions through a supply network.
 For a hospital already running 298 critical items, a delayed primary
 vendor is a systemic risk, not just an operational inconvenience. This
 paper gives Inventra Health the conceptual grounding to recommend
-backup sourcing strategies, capacity reservation, and risk tiering —
+backup sourcing strategies, capacity reservation, and risk tiering, 
 moving recommendations from reactive to strategic.
 
 **Citation (APA 7th):**
@@ -108,14 +108,14 @@ https://doi.org/10.1016/j.fmre.2024.08.002
 **What it is and how it was developed:**
 This document was custom-generated specifically for the Inventra Health
 chatbot knowledge base. It defines every column across all five hospital
-supply chain CSV files used in this project — 49 columns across
+supply chain CSV files used in this project: 49 columns across
 inventory, vendor, financial, patient, and staff tables. For each column
 it documents the data type, value range, business logic, flag definitions,
 computed column formulas, and cross-table join keys.
 
 It was built by systematically analysing the cleaned datasets and
 encoding the domain knowledge required to reason correctly about the
-data — for example, that `Days_Until_Stockout` is computed as
+data; for example, that `Days_Until_Stockout` is computed as
 `Current_Stock / Avg_Usage_Per_Day`, that `Restock_Alert = True` when
 that value is less than or equal to `Restock_Lead_Time`, and that 195
 patient records have inverted dates that require using
@@ -123,7 +123,7 @@ patient records have inverted dates that require using
 
 
 Without this document, the LLM only has the data values it sees in the
-SQL context. With it, the LLM understands *why* those values matter —
+SQL context. With it, the LLM understands *why* those values matter,
 that a `Days_Until_Stockout` of 0.2 is catastrophic because the lead
 time is 14 days, that `Flag_HoursExceedShift` indicates genuine overwork
 rather than a data error, and that `Staff_ID` and `Patient_ID` are
