@@ -12,7 +12,7 @@ Ask it anything in plain English, it queries live data, retrieves relevant domai
 and responds with structured, specific, actionable recommendations.
 
 No dashboards. No filters. No clutter.
-Just ask—and get the answer you actually need.
+Just ask, and get the answer you actually need.
 
 No noise. No overload. Just decisions.
 
