@@ -1,4 +1,4 @@
-# Data — Inventra Health
+# Data
 
 ## Source
 
