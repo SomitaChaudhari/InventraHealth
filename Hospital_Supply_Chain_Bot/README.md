@@ -1,8 +1,7 @@
 # 🏥 Inventra Health — Hospital Supply Chain Intelligence
 
-> AI-powered supply chain operations analyst for US hospitals.
+> AI-powered supply chain operations analyst for US hospitals with enterprise grade security and HIPAA aligned data governance..
 > Current version: Runs entirely locally — Llama 3 via Ollama, no API keys, no cloud, no cost.
-> Enterprise grade security and HIPAA aligned data governance.
 
 ---
 
