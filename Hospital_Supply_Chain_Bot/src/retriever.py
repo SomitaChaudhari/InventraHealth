@@ -1,8 +1,6 @@
 """
 retriever.py
 ------------
-FAISS vector store loading and semantic search for Inventra Health.
-
 
 """
 
