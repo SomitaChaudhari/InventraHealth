@@ -53,22 +53,6 @@ Hospital_Supply_Chain_Bot/
 
 ---
 
-## Security & governance
-
-| Control | Implementation |
-|---|---|
-| No API keys | Fully local Ollama|
-| Database | Read-only|
-| PII protection | Patient_ID, Staff_ID stripped before LLM |
-| SQL injection | Parameterised queries only |
-| Prompt injection | 13 blocked patterns on every input |
-| Rate limiting | 200 requests per session |
-| Markdown stripping | LLM output cleaned before rendering |
-| Response sanitisation | Prompt echo detection and removal |
-| Logging | Structured INFO logs throughout |
-
----
-
 ## Run locally
 
 ```bash
