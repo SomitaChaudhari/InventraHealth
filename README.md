@@ -1,5 +1,6 @@
 # 🏥 InventraHealth
 > Generative AI · Large Language Model (Llama 3) · Retrieval-Augmented Generation (RAG)
+
 > Somita Chaudhari
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19547539.svg)](https://doi.org/10.5281/zenodo.19547539) 
