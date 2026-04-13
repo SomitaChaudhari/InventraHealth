@@ -22,7 +22,7 @@
 ### AI & LLM
 | Tool | Version | Purpose |
 |---|---|---|
-| Ollama | Latest | Local LLM server — runs Llama 3 on-device, no API key, no cloud |
+| Ollama | Latest | Local LLM server (runs Llama 3 on-device) |
 | Llama 3 (8B) | Meta | Large language model powering all natural language responses |
 | LangChain Ollama | ≥0.1.0 | Python wrapper for invoking Ollama LLM from code |
 
@@ -32,9 +32,9 @@
 | Tool | Version | Purpose |
 |---|---|---|
 | LangChain Community | ≥0.2.0 | PDF loaders, FAISS vectorstore integration, HuggingFace embeddings |
-| LangChain Core | ≥0.2.0 | Base abstractions — documents, retrievers, runnables |
+| LangChain Core | ≥0.2.0 | Base abstractions (documents, retrievers, runnables) |
 | LangChain Text Splitters | ≥0.2.0 | Splits PDF content into chunks for vector indexing |
-| FAISS (faiss-cpu) | ≥1.7.4 | Facebook AI Similarity Search — vector index for semantic retrieval |
+| FAISS (faiss-cpu) | ≥1.7.4 | Facebook AI Similarity Search (vector index for semantic retrieval) |
 | Sentence Transformers | ≥2.2.2 | Embedding model (`all-MiniLM-L6-v2`) to convert text to vectors |
 | PyPDF | ≥3.0.0 | Loads and parses PDF knowledge base documents |
 
@@ -52,7 +52,7 @@
 ### UI & Application
 | Tool | Version | Purpose |
 |---|---|---|
-| Streamlit | ≥1.32.0 | Web application framework — chat UI, sidebar KPIs, interactive components |
+| Streamlit | ≥1.32.0 | Web application framework (chat UI, sidebar KPIs, interactive components) |
 
 ---
 
