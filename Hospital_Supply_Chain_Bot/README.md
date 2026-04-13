@@ -2,7 +2,7 @@
 
 > AI-powered supply chain operations analyst for US hospitals.
 > Current version: Runs entirely locally — Llama 3 via Ollama, no API keys, no cloud, no cost.
-> HIPAA governed.
+> Enterprise grade security and HIPAA aligned data governance.
 
 ---
 
