@@ -1,7 +1,7 @@
 # Inventra Health — Hospital Supply Chain Intelligence
 
 > AI-powered supply chain operations analyst for US hospitals.
-> Runs entirely locally — Llama 3 via Ollama, no API keys, no cloud, no cost.
+> Current version: Runs entirely locally — Llama 3 via Ollama, no API keys, no cloud, no cost.
 
 ---
 
@@ -16,8 +16,10 @@ and responds with structured, plain-text recommendations:
 - Summarise this month's spending by category
 - Which staff departments have the highest overtime?
 
-Responses use exact item names, stock levels, vendor names, and
-dollar figures — no generic output.
+Responses use exact item names, stock levels, vendor names, and 
+dollar figures and gives action/suggestion/recommendations.
+
+No Information Overload!
 
 ---
 
@@ -55,8 +57,8 @@ Hospital_Supply_Chain_Bot/
 
 | Control | Implementation |
 |---|---|
-| No API keys | Fully local Ollama — nothing sent externally |
-| Database | Read-only URI `?mode=ro` |
+| No API keys | Fully local Ollama|
+| Database | Read-only|
 | PII protection | Patient_ID, Staff_ID stripped before LLM |
 | SQL injection | Parameterised queries only |
 | Prompt injection | 13 blocked patterns on every input |
@@ -90,4 +92,4 @@ streamlit run app.py
 
 ---
 
-*Built by Somita Chaudhari · Data Scientist · Merkle (Dentsu Group)*
+*Built by Somita Chaudhari · Data Scientist
