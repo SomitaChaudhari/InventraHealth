@@ -55,7 +55,7 @@ These are starting points. You are not limited to these, ask anything related to
 
 ### How responses are structured
 
-Every response follows a clean, consistent format — no walls of text, no generic output.
+Every response follows a clean, consistent format: no walls of text, no generic output.
 
 ```
 Summary: <one line — the direct answer>
@@ -78,7 +78,7 @@ pulled directly from live data. No invented numbers. No vague advice.
 
 ### What it does NOT do
 
-- Invent data — if something is not in the database, it says so
+- Invent data (if something is not in the database, it says so)
 - Answer questions unrelated to hospital supply chain
 - Give clinical or medical advice
 
