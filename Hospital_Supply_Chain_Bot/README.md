@@ -15,7 +15,7 @@ and responds with structured, specific, actionable recommendations.
 No dashboards. No filters. No clutter.
 Just ask, and get the answer you actually need.
 
-No noise. No overload. Just decisions.
+No noise. No information overload. Just decisions.
 
 ---
 
