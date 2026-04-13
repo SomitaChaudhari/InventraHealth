@@ -74,7 +74,7 @@
 ### Development Tools
 | Tool | Purpose |
 |---|---|
-| Jupyter Notebook | Data pipeline notebooks — loading, cleaning, FAISS building, testing |
+| Jupyter Notebook | Notebooks (loading, cleaning, FAISS building, testing, etc.) |
 | Anaconda | Python distribution and conda environment management |
 | Git + GitHub | Version control and repository hosting |
 
