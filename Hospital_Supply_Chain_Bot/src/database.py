@@ -1,7 +1,7 @@
 """
 database.py
 -----------
-All SQLite query functions for Inventra Health.
+
 
 """
 
