@@ -1,4 +1,4 @@
-# 🏥 InventraHealth
+# 🏥 InventraHealth — Hospital Supply Chain Intelligence
 > Generative AI · Large Language Model (Llama 3) · Retrieval-Augmented Generation (RAG)
 
 > Developed by Somita Chaudhari
